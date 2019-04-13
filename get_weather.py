@@ -44,7 +44,6 @@ while location :
 			
 	
 ##另一个网站只支持通过城市代码获取天气,weather2.json
-#沈阳和阳谷的天气
 # location = ['101070101']
 # for i in range(len(location)):
 	# url = 'http://t.weather.sojson.com/api/weather/city/' + location[i]
