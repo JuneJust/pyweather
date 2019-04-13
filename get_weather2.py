@@ -2,7 +2,7 @@
 ##get weather
 import json,requests,sys,time,datetime
 
-location = ['阳谷','沈阳']
+location = ['北京','济南']
 for i in range(len(location)):
 	url = 'http://wthrcdn.etouch.cn/weather_mini?city=' + location[i]
 
