@@ -20,8 +20,8 @@ for i in range(len(location)):
     
 	print('%s当前的天气状况：' % (w['city']) + wf[0]['type'])
 	print('当前气温：' + w['wendu'])
-	print('今天气温预测：      ' + wf[0]['low'] + wf[0]['high'] + '	' + wf[0]['type'] + '	风力' + wf[0]['fengli'][8:14])
-	print('明天气温预测：      ' + wf[1]['low'] + wf[1]['high'] + '	' + wf[1]['type'] +  '	风力' + wf[1]['fengli'][8:14])
+	print('今天气温预测：      ' + wf[0]['low'] + wf[0]['high'] + ' ' + wf[0]['type'] + '	风力' + wf[0]['fengli'][8:14])
+	print('明天气温预测：      ' + wf[1]['low'] + wf[1]['high'] + ' ' + wf[1]['type'] +  '	风力' + wf[1]['fengli'][8:14])
 	print('%s气温预测：' %(wf[2]['date']) + wf[2]['low'] + wf[2]['high'] + '  ' + wf[2]['type'] +  '	风力' + wf[2]['fengli'][8:14])
 	print('%s气温预测：' %(wf[3]['date']) + wf[3]['low'] + wf[3]['high'] + '  ' + wf[3]['type'] +  '	风力' + wf[3]['fengli'][8:14])
 	print('%s气温预测：' %(wf[4]['date']) + wf[4]['low'] + wf[4]['high'] + '  ' + wf[4]['type'] +  '	风力' + wf[4]['fengli'][8:14] + '\n')
