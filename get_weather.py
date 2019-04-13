@@ -43,7 +43,7 @@ while location :
 	location = input('请输入要查询天气的城市名称:')
 			
 	
-##另一个网站只支持通过城市代码获取天气,weather2.json
+##从另一个网站只支持通过城市代码获取天气,weather2.json
 # location = ['101070101']
 # for i in range(len(location)):
 	# url = 'http://t.weather.sojson.com/api/weather/city/' + location[i]
